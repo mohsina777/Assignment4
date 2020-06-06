@@ -1,0 +1,78 @@
+﻿.text-white {
+    color: white;
+}
+
+.bg-grey {
+    background-color: #808080;
+}
+
+#navbarNav > ul > li > a {
+    padding: 15px 10px;
+    margin-left: 3px;
+}
+
+
+
+    #navbarNav > ul > li > a:hover {
+        color: white;
+        background-color: purple;
+        border-radius: 4px;
+    }
+
+#navbarNav > ul > li {
+}
+
+@media (max-width:1200px) {
+    .top-bar {
+        display: none !Important;
+    }
+}
+
+.banners {
+    background-image:url('../img/bg.jpg');
+    background-size:cover;
+    width: 100%;
+    height: 200px;
+    margin-bottom:50px;
+}
+
+.align-center {
+    text-align: center;
+    
+}
+.margin-top
+{
+    margin-top:50px;
+}
+.align-center h4 {
+    
+    text-transform: uppercase;
+}
+.page-title {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+    .page-title h3 {
+        font-size: 46px;
+        font-weight: bold;
+        margin-top: 0;
+        text-transform: uppercase;
+        letter-spacing: -1.6px;
+        color:white;
+        margin: 0;
+        line-height: 82px;
+        word-wrap: break-word;
+    }
